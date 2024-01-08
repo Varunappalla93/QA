@@ -20,6 +20,14 @@ class TestAllureOptions():
     def passed_step(self):
         """Tbd"""
 
+    @allure.step
+    def passed_step2(self):
+        """Tbd"""
+
+    def test_reusable_step2(self):
+        """Tbd"""
+        self.passed_step2()
+
     @pytest.mark.reusable_step
     def test_reusable_step(self):
         """Tbd"""
