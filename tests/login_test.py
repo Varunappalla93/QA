@@ -37,3 +37,7 @@ class TestLogin():
         """ Tbd """
         login.with_("tomsmith", "bad password")
         assert login.failure_message_present()
+
+    @pytest.mark.login
+    def test_login(self):
+        print("Login")

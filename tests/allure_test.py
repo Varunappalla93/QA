@@ -26,7 +26,7 @@ class TestAllureOptions():
 
     @pytest.mark.reusable_step2
     def test_reusable_step2(self):
-        """Tbd"""
+        print("Reusable step 2")
         self.passed_step2()
 
     @pytest.mark.reusable_step
