@@ -13,6 +13,7 @@ class TestLogin():
     @pytest.fixture
     def login(self, request):
         """ tbd """
+        "QA"
         chrome_options = Options()
         # Run Chrome in headless mode
         chrome_options.add_argument("--headless")
